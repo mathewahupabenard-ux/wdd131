@@ -13,16 +13,11 @@
     letter-spacing: 3px;
     font-weight: 700;
 }
-body{
-    margin: 0;
-    padding: 0;
-    background-color: var(--light-color);
-}
 header{
     background-color: var(--main-color);
     color: var(--light-color);
     padding: 10px 0;
-    text-align: left;
+    text-align: center;
 }
 h1{
     align-items: center;
@@ -71,29 +66,7 @@ nav a{
 nav a:hover{
     text-decoration: underline;
 }
-main{
-    padding: 20px;
-    min-height: 80vh;
-    background-color: var(--light-color);
-    margin-bottom: 60px; /* Space for the fixed footer */
-    grid-template-columns: 2fr 1fr;
-    gap: 20px;
-    display: grid;
-    justify-items: center;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    padding: 20px;
-    max-width: 1200px;
-    margin: 20px auto;
-}
-footer{
-    background-color: var(--dark-color);
-    color: var(--light-color);
-    padding: 10px 0;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
-}
+
 @media (min-width: 768px){
     main{
         max-width: 750px;
