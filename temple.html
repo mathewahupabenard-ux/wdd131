@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>temple</title>
+    <link rel="stylesheet" href="styles/temple.css">
+    <link rel="stylesheet" href="styles/temple-large.css">
+    <script src="scripts/temples.js"defer></script>
+</head>
+<body>
+    <header>
+        <span id="title"> Temple Album
+        <span class="slogan"> A collection of beautiful temple images</span>
+        </span>
+        <nav>
+            <span><a href="#">Home</a></span>
+            <span><a href="#">old</a></span>
+            <span><a href="#">New</a></span>
+            <span><a href="#">large</a></span>
+            <span><a href="#">Small</a></span>
+            
+        </nav>
+    </header>
+
+    <main>
+        <h1>Temple Album</h1>
+        <p>Welcome to the Temple Album, a curated collection of stunning temple images from around the world. Explore the beauty and serenity of these sacred places through our gallery.</p>
+        <figure>
+            <img src="images/image 1.jpg" alt="temple images" width="500" height="200">
+            <figcaption>home view</figcaption>
+            <img src="images/image2.jpg" alt="temple images" width="500" height="200">
+            <figcaption>old view</figcaption>
+            <img src="images/image3.jpg" alt="temple images" width="500" height="200">
+            <figcaption>New view</figcaption>
+            <img src="images/image 4.jpg" alt="temple images" width="500" height="200">
+            <figcaption>large view</figcaption>
+            <img src="images/image 5.jpg" alt="temple images" width="500" height="200">
+            <figcaption>small view</figcaption>
+            <img src="images/image 6.jpg" alt="temple images" width="500" height="200">
+            <figcaption>small</figcaption>
+            <img src="images/image7.jpg" alt="temple images" width="500" height="200">
+            <img src="images/image 8.jpg" alt="temple images" width="500" height="200">
+            <img src="images/image 9.jpg" alt="temple images" width="500" height="200">
+        </figure>
+    </main>
+
+    <footer>
+        <p>&copy;
+            <span id="current year">
+                <script>
+                    document.getElementById("current year").textContent = new Date().getFullYear();
+                </script>
+                <p>Mathew Benard</p>
+                <p>Abuja/Nigeria</p>
+                <p id="lastmodified"></p>
+                <script>
+                    document.getElementById("lastmodified").textContent = document.lastModified;
+                </script>
+            </span> </p>
+    </footer>
+    
+</body>
+</html>
