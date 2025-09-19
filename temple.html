@@ -26,38 +26,82 @@
     <main>
         <h1>Temple Album</h1>
         <p>Welcome to the Temple Album, a curated collection of stunning temple images from around the world. Explore the beauty and serenity of these sacred places through our gallery.</p>
-        <figure>
-            <img src="images/image 1.jpg" alt="temple images" width="500" height="200">
-            <figcaption>home view</figcaption>
-            <img src="images/image2.jpg" alt="temple images" width="500" height="200">
-            <figcaption>old view</figcaption>
-            <img src="images/image3.jpg" alt="temple images" width="500" height="200">
-            <figcaption>New view</figcaption>
-            <img src="images/image 4.jpg" alt="temple images" width="500" height="200">
-            <figcaption>large view</figcaption>
-            <img src="images/image 5.jpg" alt="temple images" width="500" height="200">
-            <figcaption>small view</figcaption>
-            <img src="images/image 6.jpg" alt="temple images" width="500" height="200">
-            <figcaption>small</figcaption>
-            <img src="images/image7.jpg" alt="temple images" width="500" height="200">
-            <img src="images/image 8.jpg" alt="temple images" width="500" height="200">
-            <img src="images/image 9.jpg" alt="temple images" width="500" height="200">
-        </figure>
+        <section class="card">
+            <div class="card">
+                <figure>
+                    <img src="images/image 1.jpg" alt="temple images" width="500" height="200">
+                    <figcaption>home view</figcaption>
+            
+                </figure>
+            </div>
+            <div class="card">
+                <figure>
+                    <img src="images/image2.jpg" alt="temple images" width="500" height="200">
+                    <figcaption>old view</figcaption>
+                </figure>
+            </div>
+            <div class="card">
+                <figure>
+                    <img src="images/image3.jpg" alt="temple images" width="500" height="200">
+                    <figcaption>New view</figcaption>
+                </figure>
+            </div>
+        </section>
+        <section class="card">
+            <div class="card">
+                <figure>
+                    <img src="images/image 4.jpg" alt="temple images" width="500" height="200">
+                    <figcaption>large view</figcaption>
+                </figure>
+            </div>
+            <div class="card">
+                <figure>
+                    <img src="images/image 5.jpg" alt="temple images" width="500" height="200">
+                    <figcaption>small view</figcaption>
+                </figure>
+            </div>
+            <div class="card">
+                <figure>
+                    <img src="images/image 6.jpg" alt="temple images" width="500" height="200">
+                        <figcaption>small</figcaption>
+                </figure>
+            </div>
+        </section>
+        <section class="card">
+            <div class="temple content">
+                <figure>
+                    <img src="images/image7.jpg" alt="temple images" width="500" height="200">
+                </figure>
+            </div>
+            <div>
+                <figure>
+                    <img src="images/image 8.jpg" alt="temple images" width="500" height="200">
+                </figure>
+            </div>
+            <div>
+                <figure>
+                    <img src="images/number9.jpg" alt="temple images" width="500" height="200">
+                </figure>
+            </div>
+        </section>
     </main>
 
     <footer class="gap">
-        <p class="gap">&copy;
-            <span id="current year">
-                <script>
-                    document.getElementById("current year").textContent = new Date().getFullYear();
-                </script>
-                <p class="gap">Mathew Benard</p>
-                <p class="gap">Abuja/Nigeria</p>
-                <p class="gap" id="lastmodified"></p>
-                <script>
-                    document.getElementById("lastmodified").textContent = document.lastModified;
-                </script>
-            </span> </p>
+        <span>
+            <p class="gap">&copy;
+                <span id="current year">
+                    <script>
+                        document.getElementById("current year").textContent = new Date().getFullYear();
+                    </script>
+                        <p class="gap">Mathew Benard</p>
+                        <p class="gap">Abuja/Nigeria</p>
+                        <p class="gap" id="lastmodified"></p>
+                    <script>
+                        document.getElementById("lastmodified").textContent = document.lastModified;
+                    </script>
+                </span> 
+            </p>
+        </span>
     </footer>
     
 </body>
